@@ -24,6 +24,7 @@ int count = 0;
                 return i;
         }
     }
+        return i;
   }
 
 uint64_t nextPrime(uint64_t value) {
@@ -34,6 +35,7 @@ uint64_t nextPrime(uint64_t value) {
         if (checkPrime(i)) {
             return i;
         } 
+       return i;
   }
 
 uint64_t sumPrime(uint64_t hbound) {
