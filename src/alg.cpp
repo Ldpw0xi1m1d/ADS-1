@@ -23,7 +23,8 @@ int count = 0;
             if (count == (n - 1))
                 return i;
         }
-    } }
+    }
+  }
 
 uint64_t nextPrime(uint64_t value) {
     if (value == 1) return 2;
@@ -32,7 +33,8 @@ uint64_t nextPrime(uint64_t value) {
     for (int i = value; i <= 10000; i++)
         if (checkPrime(i)) {
             return i;
-        } }
+        } 
+  }
 
 uint64_t sumPrime(uint64_t hbound) {
 int summa = 0;
